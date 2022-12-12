@@ -6,7 +6,8 @@ void AM() {
 	cin >> a;
 	cin >> b;
 	cin >> c;
-	cout << "Result" << " " << (a + b + c) / 3;
+	cout << "Result" << " " << (a + b + c) / 3 << endl;
+	cout << "Bye";
 
 }
 
