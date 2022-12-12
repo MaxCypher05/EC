@@ -61,11 +61,11 @@ int main() {
 	ak = "A";
 	bk = "B";
 	ck = "C";
-	pabc = triangle_perimeter(ak,bk,ck);
+	pabc = Triangle_Perimeter(ak, bk, ck);
 	ak = "D";
 	bk = "E";
 	ck = "F";
-	pdef = triangle_perimeter(ak, bk, ck);
+	pdef = Triangle_Perimeter(ak, bk, ck);
 	cout << "p abc " << pabc << endl;
 	cout << "p def " << pdef << endl;
 						//Task number 1
