@@ -47,7 +47,7 @@ int sign(float a) {	// For task number 3
 double Fun1(double z) { // For task number 4
 	double d;
 	d = 2 * pow(z, 3.0) + z - 3;
-	return sqrt(pow(z, 3.0) + 4 * pow(z, 2.0) + 7 * z + 1) / 2 + pow(2.7182, d);
+	return sqrt(pow(z, 3.0) + 4 * pow(z, 2.0) + 7 * z + 1) / (2 + pow(2.7182, d));
 }
 
 double Fun2(double t) {// For task number 4
@@ -55,43 +55,43 @@ double Fun2(double t) {// For task number 4
 }
 
 int main() {
+	//					//Task number 1
+	//string ak, bk, ck;
+	//double pabc, pdef;
+	//ak = "A";
+	//bk = "B";
+	//ck = "C";
+	//pabc = Triangle_Perimeter(ak, bk, ck);
+	//ak = "D";
+	//bk = "E";
+	//ck = "F";
+	//pdef = Triangle_Perimeter(ak, bk, ck);
+	//cout << "p abc " << pabc << endl;
+	//cout << "p def " << pdef << endl;
 						//Task number 1
-	string ak, bk, ck;
-	double pabc, pdef;
-	ak = "A";
-	bk = "B";
-	ck = "C";
-	pabc = Triangle_Perimeter(ak, bk, ck);
-	ak = "D";
-	bk = "E";
-	ck = "F";
-	pdef = Triangle_Perimeter(ak, bk, ck);
-	cout << "p abc " << pabc << endl;
-	cout << "p def " << pdef << endl;
-						//Task number 1
-	double r1, r2, r3, V1,V2,V3,AM;
-	cout << "Enter the radius of Ball #1" << endl;
-	cin >> r1;
-	V1 = Ball_volume(r1);
-	cout << "Bowl Volume #1 " << V1 << endl;
-	cout << "Enter the radius of Ball #2" << endl;
-	cin >> r2;
-	V2 = Ball_volume(r2);
-	cout << "Bowl Volume #2 " << V2 << endl;
-	cout << "Enter the radius of Ball #3" << endl;
-	cin >> r3;
-	V3 = Ball_volume(r3);
-	cout << "Bowl Volume #3 " << V3 << endl;
-	AM = (V1 + V2 + V3) / 3;
-	cout << "Arithmetic mean of Volumes = " << AM << endl;
-						//Task number 3
-	float x, y, z;
-	cout << "Function value calculation: z = (sign x + sign y)sign(x+y) " << endl;
-	cout << "Enter 'x' and 'y'" << endl;
-	cin >> x;
-	cin >> y;
-	z = (sign(x) + sign(y)) * sign(x + y);
-	cout <<"Result = " << z << endl;
+	//double r1, r2, r3, V1,V2,V3,AM;
+	//cout << "Enter the radius of Ball #1" << endl;
+	//cin >> r1;
+	//V1 = Ball_volume(r1);
+	//cout << "Bowl Volume #1 " << V1 << endl;
+	//cout << "Enter the radius of Ball #2" << endl;
+	//cin >> r2;
+	//V2 = Ball_volume(r2);
+	//cout << "Bowl Volume #2 " << V2 << endl;
+	//cout << "Enter the radius of Ball #3" << endl;
+	//cin >> r3;
+	//V3 = Ball_volume(r3);
+	//cout << "Bowl Volume #3 " << V3 << endl;
+	//AM = (V1 + V2 + V3) / 3;
+	//cout << "Arithmetic mean of Volumes = " << AM << endl;
+					//Task number 3
+	//float x, y, z;
+	//cout << "Function value calculation: z = (sign x + sign y)sign(x+y) " << endl;
+	//cout << "Enter 'x' and 'y'" << endl;
+	//cin >> x;
+	//cin >> y;
+	//z = (sign(x) + sign(y)) * sign(x + y);
+	//cout <<"Result = " << z << endl;
 						//Task number 4
 	double z, t, a, b;
 	cout << "Enter 'z' and 't'" << endl;
