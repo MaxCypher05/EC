@@ -10,7 +10,7 @@ HANDLE hConsole;
 //Normal Color  = 7
 // Green = 10
 //Matrix_1999
-void Ñolor_printing_press(int c) {                 //I was bored and I added a painting function
+void Color_printing_press(int c) {                 //I was bored and I added a painting function
 	hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
 	SetConsoleTextAttribute(hConsole, c);
 }
@@ -31,10 +31,10 @@ void Matrix_1999() {                  //For Task N1
                 cout << setw(2) << j << " ";
             }
             else {
-                Ñolor_printing_press(10);
+                Color_printing_press(10);
                 A[i][j] = i * j;
                 cout << setw(2) << A[i][j]<<" ";
-                Ñolor_printing_press(7);
+                Color_printing_press(7);
             }
         }
         cout << endl;
